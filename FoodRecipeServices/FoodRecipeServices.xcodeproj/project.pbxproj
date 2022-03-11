@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		1D6D5A2927DAE420004054E4 /* FoodRecipeServices.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D5A2827DAE420004054E4 /* FoodRecipeServices.docc */; };
 		1D6D5A2A27DAE420004054E4 /* FoodRecipeServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6D5A2727DAE420004054E4 /* FoodRecipeServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D78572E27DAE7B6000EE2E7 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78572D27DAE7B6000EE2E7 /* Base.swift */; };
+		1D78573027DAE810000EE2E7 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78572F27DAE810000EE2E7 /* NetworkService.swift */; };
+		1D78573227DAE857000EE2E7 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78573127DAE857000EE2E7 /* NetworkRequest.swift */; };
+		1D78573427DAE8BB000EE2E7 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78573327DAE8BB000EE2E7 /* Enviroment.swift */; };
 		F623CC4B826251AF51BFFB25 /* Pods_FoodRecipeServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9CE8FD37C7E8371AF9ADA2 /* Pods_FoodRecipeServices.framework */; };
 /* End PBXBuildFile section */
 
@@ -16,6 +20,10 @@
 		1D6D5A2427DAE420004054E4 /* FoodRecipeServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FoodRecipeServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6D5A2727DAE420004054E4 /* FoodRecipeServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodRecipeServices.h; sourceTree = "<group>"; };
 		1D6D5A2827DAE420004054E4 /* FoodRecipeServices.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FoodRecipeServices.docc; sourceTree = "<group>"; };
+		1D78572D27DAE7B6000EE2E7 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		1D78572F27DAE810000EE2E7 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		1D78573127DAE857000EE2E7 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		1D78573327DAE8BB000EE2E7 /* Enviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
 		4D9CE8FD37C7E8371AF9ADA2 /* Pods_FoodRecipeServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRecipeServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2CE9830F88FE9606DCFAAB /* Pods-FoodRecipeServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipeServices.debug.xcconfig"; path = "Target Support Files/Pods-FoodRecipeServices/Pods-FoodRecipeServices.debug.xcconfig"; sourceTree = "<group>"; };
 		C8B2374BB515F7D58D5D17D3 /* Pods-FoodRecipeServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipeServices.release.xcconfig"; path = "Target Support Files/Pods-FoodRecipeServices/Pods-FoodRecipeServices.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,10 +70,38 @@
 		1D6D5A2627DAE420004054E4 /* FoodRecipeServices */ = {
 			isa = PBXGroup;
 			children = (
+				1D78572A27DAE742000EE2E7 /* Services */,
 				1D6D5A2727DAE420004054E4 /* FoodRecipeServices.h */,
 				1D6D5A2827DAE420004054E4 /* FoodRecipeServices.docc */,
 			);
 			path = FoodRecipeServices;
+			sourceTree = "<group>";
+		};
+		1D78572A27DAE742000EE2E7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1D78572B27DAE76C000EE2E7 /* Remote */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1D78572B27DAE76C000EE2E7 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				1D78572C27DAE77A000EE2E7 /* Base */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		1D78572C27DAE77A000EE2E7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1D78572D27DAE7B6000EE2E7 /* Base.swift */,
+				1D78572F27DAE810000EE2E7 /* NetworkService.swift */,
+				1D78573127DAE857000EE2E7 /* NetworkRequest.swift */,
+				1D78573327DAE8BB000EE2E7 /* Enviroment.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		A3080C1C755E9B174D6992C1 /* Pods */ = {
@@ -183,6 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D78572E27DAE7B6000EE2E7 /* Base.swift in Sources */,
+				1D78573027DAE810000EE2E7 /* NetworkService.swift in Sources */,
+				1D78573427DAE8BB000EE2E7 /* Enviroment.swift in Sources */,
+				1D78573227DAE857000EE2E7 /* NetworkRequest.swift in Sources */,
 				1D6D5A2927DAE420004054E4 /* FoodRecipeServices.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
