@@ -11,8 +11,33 @@
 		1D15652C27DA6AFD00CDAC80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D15652B27DA6AFD00CDAC80 /* ContentView.swift */; };
 		1D15652E27DA6AFF00CDAC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D15652D27DA6AFF00CDAC80 /* Assets.xcassets */; };
 		1D15653127DA6AFF00CDAC80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D15653027DA6AFF00CDAC80 /* Preview Assets.xcassets */; };
+		1D78572627DAE55C000EE2E7 /* FoodRecipeServices.framework in Copy Framworks */ = {isa = PBXBuildFile; fileRef = 1D78572327DAE513000EE2E7 /* FoodRecipeServices.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AD157E3F332DB3F1D009CD7C /* Pods_FoodRecipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC92BEDE875CA5F81CABBA5 /* Pods_FoodRecipe.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D78572227DAE513000EE2E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D78571E27DAE513000EE2E7 /* FoodRecipeServices.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6D5A2427DAE420004054E4;
+			remoteInfo = FoodRecipeServices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D78572427DAE51F000EE2E7 /* Copy Framworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1D78572627DAE55C000EE2E7 /* FoodRecipeServices.framework in Copy Framworks */,
+			);
+			name = "Copy Framworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D15652627DA6AFD00CDAC80 /* FoodRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +45,7 @@
 		1D15652B27DA6AFD00CDAC80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D15652D27DA6AFF00CDAC80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D15653027DA6AFF00CDAC80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D78571E27DAE513000EE2E7 /* FoodRecipeServices.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FoodRecipeServices.xcodeproj; path = FoodRecipeServices/FoodRecipeServices.xcodeproj; sourceTree = SOURCE_ROOT; };
 		1ECDF0C64EF8CB364461C86B /* Pods-FoodRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipe.release.xcconfig"; path = "Target Support Files/Pods-FoodRecipe/Pods-FoodRecipe.release.xcconfig"; sourceTree = "<group>"; };
 		4A1507F502AD4E9F96154669 /* Pods-FoodRecipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipe.debug.xcconfig"; path = "Target Support Files/Pods-FoodRecipe/Pods-FoodRecipe.debug.xcconfig"; sourceTree = "<group>"; };
 		9AC92BEDE875CA5F81CABBA5 /* Pods_FoodRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRecipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +66,7 @@
 		1D15651D27DA6AFC00CDAC80 = {
 			isa = PBXGroup;
 			children = (
+				1D78571D27DAE4FE000EE2E7 /* Dependencies */,
 				1D15652827DA6AFD00CDAC80 /* FoodRecipe */,
 				1D15652727DA6AFD00CDAC80 /* Products */,
 				3300DAD7E7CB805ED09FE7FA /* Pods */,
@@ -98,13 +125,28 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		1D78571D27DAE4FE000EE2E7 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				1D78571E27DAE513000EE2E7 /* FoodRecipeServices.xcodeproj */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		1D78571F27DAE513000EE2E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D78572327DAE513000EE2E7 /* FoodRecipeServices.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3300DAD7E7CB805ED09FE7FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				4A1507F502AD4E9F96154669 /* Pods-FoodRecipe.debug.xcconfig */,
 				1ECDF0C64EF8CB364461C86B /* Pods-FoodRecipe.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -127,6 +169,7 @@
 				1D15652227DA6AFC00CDAC80 /* Sources */,
 				1D15652327DA6AFC00CDAC80 /* Frameworks */,
 				1D15652427DA6AFC00CDAC80 /* Resources */,
+				1D78572427DAE51F000EE2E7 /* Copy Framworks */,
 			);
 			buildRules = (
 			);
@@ -163,12 +206,28 @@
 			mainGroup = 1D15651D27DA6AFC00CDAC80;
 			productRefGroup = 1D15652727DA6AFD00CDAC80 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1D78571F27DAE513000EE2E7 /* Products */;
+					ProjectRef = 1D78571E27DAE513000EE2E7 /* FoodRecipeServices.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1D15652527DA6AFC00CDAC80 /* FoodRecipe */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1D78572327DAE513000EE2E7 /* FoodRecipeServices.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FoodRecipeServices.framework;
+			remoteRef = 1D78572227DAE513000EE2E7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D15652427DA6AFC00CDAC80 /* Resources */ = {
