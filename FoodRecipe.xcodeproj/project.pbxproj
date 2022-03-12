@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1D15652A27DA6AFD00CDAC80 /* FoodRecipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D15652927DA6AFD00CDAC80 /* FoodRecipeApp.swift */; };
-		1D15652C27DA6AFD00CDAC80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D15652B27DA6AFD00CDAC80 /* ContentView.swift */; };
 		1D15652E27DA6AFF00CDAC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D15652D27DA6AFF00CDAC80 /* Assets.xcassets */; };
 		1D15653127DA6AFF00CDAC80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D15653027DA6AFF00CDAC80 /* Preview Assets.xcassets */; };
 		1D78572627DAE55C000EE2E7 /* FoodRecipeServices.framework in Copy Framworks */ = {isa = PBXBuildFile; fileRef = 1D78572327DAE513000EE2E7 /* FoodRecipeServices.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1D78574427DAEB89000EE2E7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78574327DAEB89000EE2E7 /* HomeView.swift */; };
+		1D78574627DAEEAB000EE2E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D78574527DAEEAB000EE2E7 /* Images.xcassets */; };
+		1D78574A27DB7213000EE2E7 /* BasicBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78574827DB7213000EE2E7 /* BasicBorderView.swift */; };
+		1D78574B27DB7213000EE2E7 /* BackgroundFloatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78574927DB7213000EE2E7 /* BackgroundFloatingView.swift */; };
 		AD157E3F332DB3F1D009CD7C /* Pods_FoodRecipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC92BEDE875CA5F81CABBA5 /* Pods_FoodRecipe.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,10 +45,13 @@
 /* Begin PBXFileReference section */
 		1D15652627DA6AFD00CDAC80 /* FoodRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D15652927DA6AFD00CDAC80 /* FoodRecipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecipeApp.swift; sourceTree = "<group>"; };
-		1D15652B27DA6AFD00CDAC80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D15652D27DA6AFF00CDAC80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D15653027DA6AFF00CDAC80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D78571E27DAE513000EE2E7 /* FoodRecipeServices.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FoodRecipeServices.xcodeproj; path = FoodRecipeServices/FoodRecipeServices.xcodeproj; sourceTree = SOURCE_ROOT; };
+		1D78574327DAEB89000EE2E7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1D78574527DAEEAB000EE2E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D78574827DB7213000EE2E7 /* BasicBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasicBorderView.swift; path = "../../../Leedo/Leedo/View Compnents/BasicBorderView.swift"; sourceTree = "<group>"; };
+		1D78574927DB7213000EE2E7 /* BackgroundFloatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundFloatingView.swift; path = "../../../Leedo/Leedo/View Compnents/BackgroundFloatingView.swift"; sourceTree = "<group>"; };
 		1ECDF0C64EF8CB364461C86B /* Pods-FoodRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipe.release.xcconfig"; path = "Target Support Files/Pods-FoodRecipe/Pods-FoodRecipe.release.xcconfig"; sourceTree = "<group>"; };
 		4A1507F502AD4E9F96154669 /* Pods-FoodRecipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipe.debug.xcconfig"; path = "Target Support Files/Pods-FoodRecipe/Pods-FoodRecipe.debug.xcconfig"; sourceTree = "<group>"; };
 		9AC92BEDE875CA5F81CABBA5 /* Pods_FoodRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRecipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +91,7 @@
 		1D15652827DA6AFD00CDAC80 /* FoodRecipe */ = {
 			isa = PBXGroup;
 			children = (
+				1D78574727DB71DA000EE2E7 /* View Compnents */,
 				1D15653927DA6FB100CDAC80 /* Resources */,
 				1D15653827DA6FA800CDAC80 /* App */,
 				1D15653727DA6F5100CDAC80 /* Scenes */,
@@ -104,7 +111,7 @@
 		1D15653727DA6F5100CDAC80 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				1D15652B27DA6AFD00CDAC80 /* ContentView.swift */,
+				1D78574027DAEB4A000EE2E7 /* Home */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -121,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				1D15652D27DA6AFF00CDAC80 /* Assets.xcassets */,
+				1D78574527DAEEAB000EE2E7 /* Images.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -139,6 +147,31 @@
 				1D78572327DAE513000EE2E7 /* FoodRecipeServices.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1D78574027DAEB4A000EE2E7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1D78574227DAEB72000EE2E7 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1D78574227DAEB72000EE2E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D78574327DAEB89000EE2E7 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D78574727DB71DA000EE2E7 /* View Compnents */ = {
+			isa = PBXGroup;
+			children = (
+				1D78574927DB7213000EE2E7 /* BackgroundFloatingView.swift */,
+				1D78574827DB7213000EE2E7 /* BasicBorderView.swift */,
+			);
+			path = "View Compnents";
 			sourceTree = "<group>";
 		};
 		3300DAD7E7CB805ED09FE7FA /* Pods */ = {
@@ -234,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D78574627DAEEAB000EE2E7 /* Images.xcassets in Resources */,
 				1D15653127DA6AFF00CDAC80 /* Preview Assets.xcassets in Resources */,
 				1D15652E27DA6AFF00CDAC80 /* Assets.xcassets in Resources */,
 			);
@@ -271,8 +305,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D15652C27DA6AFD00CDAC80 /* ContentView.swift in Sources */,
 				1D15652A27DA6AFD00CDAC80 /* FoodRecipeApp.swift in Sources */,
+				1D78574A27DB7213000EE2E7 /* BasicBorderView.swift in Sources */,
+				1D78574B27DB7213000EE2E7 /* BackgroundFloatingView.swift in Sources */,
+				1D78574427DAEB89000EE2E7 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
