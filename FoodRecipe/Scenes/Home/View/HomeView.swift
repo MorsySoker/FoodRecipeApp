@@ -12,11 +12,19 @@ struct HomeView: View {
     // MARK: - Properties
     
     @EnvironmentObject var foodRecipesVM: FoodRecipesViewModel
+    @State private var isDetailedViewPresented: Bool = false
     
     // MARK: - Body
     
     var body: some View {
-        FoodRecipesView(foodRecipes: foodRecipesVM.recipes, selectedRecipe: $foodRecipesVM.selectedRecipe)
+        FoodRecipesView(foodRecipes: foodRecipesVM.recipes, selectedRecipe: $foodRecipesVM.selectedRecipe) {
+            isDetailedViewPresented.toggle()
+        }
+        .sheet(isPresented: $isDetailedViewPresented) {
+            if let foodRecipe = foodRecipesVM.selectedRecipe {
+            FoodRecipeDetailedView(foodRecipe: foodRecipe)
+            }
+        }
     }
 }
 
