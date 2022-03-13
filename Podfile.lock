@@ -1,3 +1,26 @@
-PODFILE CHECKSUM: fcbb095b72c4383f40ab0351e3c0071fc56152a3
+PODS:
+  - SDWebImage (5.12.2):
+    - SDWebImage/Core (= 5.12.2)
+  - SDWebImage/Core (5.12.2)
+  - SDWebImageSwiftUI (2.0.2):
+    - SDWebImage (~> 5.10)
+  - SSToastMessage (1.0.0)
+
+DEPENDENCIES:
+  - SDWebImageSwiftUI
+  - SSToastMessage
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - SDWebImageSwiftUI
+    - SSToastMessage
+
+SPEC CHECKSUMS:
+  SDWebImage: 240e5c12b592fb1268c1d03b8c90d90e8c2ffe82
+  SDWebImageSwiftUI: 8a3923c95108312b03a599ec1498754af55a6819
+  SSToastMessage: 36f6bb3175e78b3424a03946a6c3d2588b322e0a
+
+PODFILE CHECKSUM: 8d12220e45a4d246d1b68fed7b0cdbde44a38d8a
 
 COCOAPODS: 1.10.2

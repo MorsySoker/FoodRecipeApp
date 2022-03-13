@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct FoodRecipeApp: App {
+    
+    // MARK: - Properties
+    
+    @StateObject var foodRecipesVM = FoodRecipesViewModel()
+    
+    // MARK: - Body
+    
     var body: some Scene {
         WindowGroup {
             HomeView()
+                .environmentObject(foodRecipesVM)
         }
     }
 }

@@ -12,4 +12,9 @@ end
 # Pods for FoodRecipe
 target 'FoodRecipe' do
   project 'FoodRecipe.project'
+  
+  # pods used only in FoodRecipe
+  pod 'SSToastMessage'
+  pod 'SDWebImageSwiftUI'
+
 end
