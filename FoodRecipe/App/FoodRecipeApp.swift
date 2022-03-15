@@ -18,7 +18,8 @@ struct FoodRecipeApp: App {
     
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            SplashView()
+            //LoginView()
 //            HomeView()
 //                .environmentObject(foodRecipesVM)
         }
