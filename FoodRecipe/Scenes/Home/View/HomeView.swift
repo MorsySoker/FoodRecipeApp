@@ -17,12 +17,16 @@ struct HomeView: View {
     // MARK: - Body
     
     var body: some View {
-        FoodRecipesView(foodRecipes: foodRecipesVM.recipes, selectedRecipe: $foodRecipesVM.selectedRecipe) {
-            isDetailedViewPresented.toggle()
-        }
-        .sheet(isPresented: $isDetailedViewPresented) {
-            if let foodRecipe = foodRecipesVM.selectedRecipe {
-            FoodRecipeDetailedView(foodRecipe: foodRecipe)
+        ZStack {
+            AppBackground()
+            
+            FoodRecipesView(foodRecipes: foodRecipesVM.recipes, selectedRecipe: $foodRecipesVM.selectedRecipe) {
+                isDetailedViewPresented.toggle()
+            }
+            .sheet(isPresented: $isDetailedViewPresented) {
+                if let foodRecipe = foodRecipesVM.selectedRecipe {
+                    FoodRecipeDetailedView(foodRecipe: foodRecipe)
+                }
             }
         }
     }

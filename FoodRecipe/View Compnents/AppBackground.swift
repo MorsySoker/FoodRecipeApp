@@ -9,7 +9,11 @@ import SwiftUI
 
 struct AppBackground: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        LinearGradient(
+            gradient: Gradient(colors: [Color.goldenYellow, Color.bloodyRed]), startPoint: .top,
+            endPoint: .bottom
+        )
+        .edgesIgnoringSafeArea(.vertical)
     }
 }
 

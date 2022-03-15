@@ -40,7 +40,7 @@ struct FoodRecipeDetailedView: View {
                 Button { dismiss.callAsFunction() } label: {
                     Image(systemName: "chevron.down.circle.fill")
                         .font(.largeTitle)
-                        .foregroundColor(.white)
+                        .foregroundColor(.bloodyRed)
                 }
                 .padding()
             }

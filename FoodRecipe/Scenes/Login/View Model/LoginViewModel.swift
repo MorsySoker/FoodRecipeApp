@@ -46,6 +46,7 @@ class LoginViewModel: ObservableObject {
 
     func login() {
         userService.login(username: username, password: password).sink { [weak self] completion in
+            print(self?.username , self?.password)
             if case let .failure(error) = completion {
                 self?.errorMessage = error.localizedDescription
             }

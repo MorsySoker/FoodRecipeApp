@@ -11,7 +11,7 @@ struct SplashView: View {
 
     // MARK: - Properties
 
-    //@EnvironmentObject var appState: AppState
+    @EnvironmentObject var appState: AppState
 
     private enum Strings {
         static let spalshAnimationFileName = "food"
@@ -29,14 +29,14 @@ struct SplashView: View {
             LottieView(name: Strings.spalshAnimationFileName)
                 .offset(y: -20)
         )
-        //.task { await delay() }
+        .task { await delay() }
     }
 
     private func delay() async {
         // Delay of 2 seconds (1 second = 1_000_000_000 nanoseconds)
         try? await Task.sleep(nanoseconds: 2_000_000_000)
         DispatchQueue.main.async {
-            //appState.currentRoot = .authentication
+            appState.currentRoot = .authentication
         }
     }
 }

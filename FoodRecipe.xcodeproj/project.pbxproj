@@ -53,6 +53,8 @@
 		1DA494F227E118540070B04C /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494F127E118540070B04C /* food.json */; };
 		1DA494F427E1187D0070B04C /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494F327E1187D0070B04C /* LottieView.swift */; };
 		1DA494FB27E11A480070B04C /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494FA27E11A480070B04C /* SplashView.swift */; };
+		1DA494FD27E11B090070B04C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494FC27E11B090070B04C /* AppState.swift */; };
+		1DA494FF27E11D1F0070B04C /* AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494FE27E11D1F0070B04C /* AppBackground.swift */; };
 		AD157E3F332DB3F1D009CD7C /* Pods_FoodRecipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC92BEDE875CA5F81CABBA5 /* Pods_FoodRecipe.framework */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +131,8 @@
 		1DA494F127E118540070B04C /* food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = food.json; sourceTree = "<group>"; };
 		1DA494F327E1187D0070B04C /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		1DA494FA27E11A480070B04C /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		1DA494FC27E11B090070B04C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		1DA494FE27E11D1F0070B04C /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
 		1ECDF0C64EF8CB364461C86B /* Pods-FoodRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipe.release.xcconfig"; path = "Target Support Files/Pods-FoodRecipe/Pods-FoodRecipe.release.xcconfig"; sourceTree = "<group>"; };
 		4A1507F502AD4E9F96154669 /* Pods-FoodRecipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipe.debug.xcconfig"; path = "Target Support Files/Pods-FoodRecipe/Pods-FoodRecipe.debug.xcconfig"; sourceTree = "<group>"; };
 		9AC92BEDE875CA5F81CABBA5 /* Pods_FoodRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRecipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				1D15652927DA6AFD00CDAC80 /* FoodRecipeApp.swift */,
+				1DA494FC27E11B090070B04C /* AppState.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				1D78574827DB7213000EE2E7 /* BasicBorderView.swift */,
 				1D78575227DCF8E1000EE2E7 /* RecipeItemCard.swift */,
 				1D8A0B7D27DE8FB1008549F8 /* WebImageView.swift */,
+				1DA494FE27E11D1F0070B04C /* AppBackground.swift */,
 			);
 			path = "View Compnents";
 			sourceTree = "<group>";
@@ -538,6 +544,7 @@
 				1DA494AF27E1020A0070B04C /* AppLink.swift in Sources */,
 				1D78575127DCF67C000EE2E7 /* FoodRecipesViewModel.swift in Sources */,
 				1D78574A27DB7213000EE2E7 /* BasicBorderView.swift in Sources */,
+				1DA494FF27E11D1F0070B04C /* AppBackground.swift in Sources */,
 				1DA494B927E1038B0070B04C /* Font+App.swift in Sources */,
 				1D78574B27DB7213000EE2E7 /* BackgroundFloatingView.swift in Sources */,
 				1DA494EC27E10A7A0070B04C /* LoginViewModel.swift in Sources */,
@@ -548,6 +555,7 @@
 				1DA494BA27E1038B0070B04C /* Color+App.swift in Sources */,
 				1DA494AD27E1020A0070B04C /* FloatingTextField.swift in Sources */,
 				1D8A0B7B27DE8EAA008549F8 /* FoodRecipeDetailedView.swift in Sources */,
+				1DA494FD27E11B090070B04C /* AppState.swift in Sources */,
 				1DA494A627E101650070B04C /* LoginView.swift in Sources */,
 				1D8A0B7E27DE8FB1008549F8 /* WebImageView.swift in Sources */,
 				1DA494AE27E1020A0070B04C /* ToastMsg.swift in Sources */,
