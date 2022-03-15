@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SDWebImageSwiftUI
 
 struct RecipeItemCard: View {
     
@@ -21,10 +20,7 @@ struct RecipeItemCard: View {
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
             if let imageUrl = URL(string: recipeimage) {
-                WebImage(url: imageUrl)
-                    .placeholder { Color.cyan }
-                    .resizable()
-                    .scaledToFit()
+                WebImageView(imageURL: imageUrl)
                     .shadow(color: Color.gray,
                             radius: 6, x: 0, y: 3)
             }
@@ -44,11 +40,5 @@ struct RecipeItemCard: View {
         .cornerRadius(10)
         .background(BackgroundFloatingView().offset(y: 5))
         .background(BasicBorderView())
-    }
-}
-
-struct RecipeItemCard_Previews: PreviewProvider {
-    static var previews: some View {
-        RecipeItemCard(recipeimage: "", recipeName: "", recipeHeadline: "")
     }
 }
