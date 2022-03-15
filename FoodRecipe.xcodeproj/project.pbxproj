@@ -49,6 +49,7 @@
 		1DA494DF27E105F00070B04C /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494CD27E105F00070B04C /* Poppins-SemiBold.ttf */; };
 		1DA494E027E105F00070B04C /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494CE27E105F00070B04C /* Poppins-Italic.ttf */; };
 		1DA494E127E105F00070B04C /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494CF27E105F00070B04C /* Poppins-MediumItalic.ttf */; };
+		1DA494EC27E10A7A0070B04C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494EB27E10A7A0070B04C /* LoginViewModel.swift */; };
 		AD157E3F332DB3F1D009CD7C /* Pods_FoodRecipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC92BEDE875CA5F81CABBA5 /* Pods_FoodRecipe.framework */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +122,7 @@
 		1DA494CD27E105F00070B04C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		1DA494CE27E105F00070B04C /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
 		1DA494CF27E105F00070B04C /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		1DA494EB27E10A7A0070B04C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		1ECDF0C64EF8CB364461C86B /* Pods-FoodRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipe.release.xcconfig"; path = "Target Support Files/Pods-FoodRecipe/Pods-FoodRecipe.release.xcconfig"; sourceTree = "<group>"; };
 		4A1507F502AD4E9F96154669 /* Pods-FoodRecipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipe.debug.xcconfig"; path = "Target Support Files/Pods-FoodRecipe/Pods-FoodRecipe.debug.xcconfig"; sourceTree = "<group>"; };
 		9AC92BEDE875CA5F81CABBA5 /* Pods_FoodRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRecipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -278,6 +280,7 @@
 		1DA494A227E101330070B04C /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				1DA494E927E10A670070B04C /* View Model */,
 				1DA494A427E1013D0070B04C /* View */,
 			);
 			path = Login;
@@ -324,6 +327,14 @@
 				1D78574527DAEEAB000EE2E7 /* Images.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		1DA494E927E10A670070B04C /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DA494EB27E10A7A0070B04C /* LoginViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 		3300DAD7E7CB805ED09FE7FA /* Pods */ = {
@@ -502,6 +513,7 @@
 				1D78574A27DB7213000EE2E7 /* BasicBorderView.swift in Sources */,
 				1DA494B927E1038B0070B04C /* Font+App.swift in Sources */,
 				1D78574B27DB7213000EE2E7 /* BackgroundFloatingView.swift in Sources */,
+				1DA494EC27E10A7A0070B04C /* LoginViewModel.swift in Sources */,
 				1DA494B227E1020A0070B04C /* AuthHeader.swift in Sources */,
 				1D8A0B8127DE92BB008549F8 /* View+App.swift in Sources */,
 				1DA494B027E1020A0070B04C /* AppBtnLabel.swift in Sources */,
