@@ -16,6 +16,7 @@
 		1D78573827DAE99C000EE2E7 /* RecipesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78573727DAE99C000EE2E7 /* RecipesModel.swift */; };
 		1D78573A27DAE9C1000EE2E7 /* RecipesServiceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78573927DAE9C1000EE2E7 /* RecipesServiceEndpoint.swift */; };
 		1D78573C27DAE9E4000EE2E7 /* RecipesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78573B27DAE9E4000EE2E7 /* RecipesService.swift */; };
+		1DA494E827E107FD0070B04C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494E727E107FD0070B04C /* AuthService.swift */; };
 		F623CC4B826251AF51BFFB25 /* Pods_FoodRecipeServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9CE8FD37C7E8371AF9ADA2 /* Pods_FoodRecipeServices.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		1D78573727DAE99C000EE2E7 /* RecipesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesModel.swift; sourceTree = "<group>"; };
 		1D78573927DAE9C1000EE2E7 /* RecipesServiceEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesServiceEndpoint.swift; sourceTree = "<group>"; };
 		1D78573B27DAE9E4000EE2E7 /* RecipesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesService.swift; sourceTree = "<group>"; };
+		1DA494E727E107FD0070B04C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		4D9CE8FD37C7E8371AF9ADA2 /* Pods_FoodRecipeServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRecipeServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2CE9830F88FE9606DCFAAB /* Pods-FoodRecipeServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipeServices.debug.xcconfig"; path = "Target Support Files/Pods-FoodRecipeServices/Pods-FoodRecipeServices.debug.xcconfig"; sourceTree = "<group>"; };
 		C8B2374BB515F7D58D5D17D3 /* Pods-FoodRecipeServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipeServices.release.xcconfig"; path = "Target Support Files/Pods-FoodRecipeServices/Pods-FoodRecipeServices.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		1D78572B27DAE76C000EE2E7 /* Remote */ = {
 			isa = PBXGroup;
 			children = (
+				1DA494E627E107C30070B04C /* Auth */,
 				1D78573627DAE97A000EE2E7 /* Recipes */,
 				1D78572C27DAE77A000EE2E7 /* Base */,
 			);
@@ -119,6 +122,14 @@
 				1D78573B27DAE9E4000EE2E7 /* RecipesService.swift */,
 			);
 			path = Recipes;
+			sourceTree = "<group>";
+		};
+		1DA494E627E107C30070B04C /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				1DA494E727E107FD0070B04C /* AuthService.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		A3080C1C755E9B174D6992C1 /* Pods */ = {
@@ -239,6 +250,7 @@
 				1D78572E27DAE7B6000EE2E7 /* Base.swift in Sources */,
 				1D78573827DAE99C000EE2E7 /* RecipesModel.swift in Sources */,
 				1D78573A27DAE9C1000EE2E7 /* RecipesServiceEndpoint.swift in Sources */,
+				1DA494E827E107FD0070B04C /* AuthService.swift in Sources */,
 				1D78573C27DAE9E4000EE2E7 /* RecipesService.swift in Sources */,
 				1D78573027DAE810000EE2E7 /* NetworkService.swift in Sources */,
 				1D78573427DAE8BB000EE2E7 /* Enviroment.swift in Sources */,
