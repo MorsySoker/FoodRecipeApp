@@ -50,6 +50,8 @@
 		1DA494E027E105F00070B04C /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494CE27E105F00070B04C /* Poppins-Italic.ttf */; };
 		1DA494E127E105F00070B04C /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494CF27E105F00070B04C /* Poppins-MediumItalic.ttf */; };
 		1DA494EC27E10A7A0070B04C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494EB27E10A7A0070B04C /* LoginViewModel.swift */; };
+		1DA494F227E118540070B04C /* foodLottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494F127E118540070B04C /* foodLottie.json */; };
+		1DA494F427E1187D0070B04C /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494F327E1187D0070B04C /* LottieView.swift */; };
 		AD157E3F332DB3F1D009CD7C /* Pods_FoodRecipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC92BEDE875CA5F81CABBA5 /* Pods_FoodRecipe.framework */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +125,8 @@
 		1DA494CE27E105F00070B04C /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
 		1DA494CF27E105F00070B04C /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		1DA494EB27E10A7A0070B04C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1DA494F127E118540070B04C /* foodLottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = foodLottie.json; sourceTree = "<group>"; };
+		1DA494F327E1187D0070B04C /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		1ECDF0C64EF8CB364461C86B /* Pods-FoodRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipe.release.xcconfig"; path = "Target Support Files/Pods-FoodRecipe/Pods-FoodRecipe.release.xcconfig"; sourceTree = "<group>"; };
 		4A1507F502AD4E9F96154669 /* Pods-FoodRecipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipe.debug.xcconfig"; path = "Target Support Files/Pods-FoodRecipe/Pods-FoodRecipe.debug.xcconfig"; sourceTree = "<group>"; };
 		9AC92BEDE875CA5F81CABBA5 /* Pods_FoodRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRecipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,6 +205,7 @@
 		1D15653927DA6FB100CDAC80 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1DA494EF27E1183A0070B04C /* Lottie */,
 				1DA494E227E105F50070B04C /* Assets */,
 				1DA494BD27E105F00070B04C /* Fonts */,
 			);
@@ -245,6 +250,7 @@
 		1D78574727DB71DA000EE2E7 /* View Compnents */ = {
 			isa = PBXGroup;
 			children = (
+				1DA494F327E1187D0070B04C /* LottieView.swift */,
 				1DA494AA27E102090070B04C /* AppBtnLabel.swift */,
 				1DA494A927E102090070B04C /* AppLink.swift */,
 				1DA494AC27E1020A0070B04C /* AuthHeader.swift */,
@@ -335,6 +341,14 @@
 				1DA494EB27E10A7A0070B04C /* LoginViewModel.swift */,
 			);
 			path = "View Model";
+			sourceTree = "<group>";
+		};
+		1DA494EF27E1183A0070B04C /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				1DA494F127E118540070B04C /* foodLottie.json */,
+			);
+			path = Lottie;
 			sourceTree = "<group>";
 		};
 		3300DAD7E7CB805ED09FE7FA /* Pods */ = {
@@ -452,6 +466,7 @@
 				1D15652E27DA6AFF00CDAC80 /* Assets.xcassets in Resources */,
 				1DA494D327E105F00070B04C /* Poppins-BoldItalic.ttf in Resources */,
 				1DA494D527E105F00070B04C /* Poppins-Medium.ttf in Resources */,
+				1DA494F227E118540070B04C /* foodLottie.json in Resources */,
 				1DA494D827E105F00070B04C /* Poppins-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +531,7 @@
 				1DA494EC27E10A7A0070B04C /* LoginViewModel.swift in Sources */,
 				1DA494B227E1020A0070B04C /* AuthHeader.swift in Sources */,
 				1D8A0B8127DE92BB008549F8 /* View+App.swift in Sources */,
+				1DA494F427E1187D0070B04C /* LottieView.swift in Sources */,
 				1DA494B027E1020A0070B04C /* AppBtnLabel.swift in Sources */,
 				1DA494BA27E1038B0070B04C /* Color+App.swift in Sources */,
 				1DA494AD27E1020A0070B04C /* FloatingTextField.swift in Sources */,

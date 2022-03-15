@@ -1,4 +1,5 @@
 PODS:
+  - lottie-ios (3.3.0)
   - SDWebImage (5.12.2):
     - SDWebImage/Core (= 5.12.2)
   - SDWebImage/Core (5.12.2)
@@ -7,20 +8,23 @@ PODS:
   - SSToastMessage (1.0.0)
 
 DEPENDENCIES:
+  - lottie-ios
   - SDWebImageSwiftUI
   - SSToastMessage
 
 SPEC REPOS:
   trunk:
+    - lottie-ios
     - SDWebImage
     - SDWebImageSwiftUI
     - SSToastMessage
 
 SPEC CHECKSUMS:
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
   SDWebImage: 240e5c12b592fb1268c1d03b8c90d90e8c2ffe82
   SDWebImageSwiftUI: 8a3923c95108312b03a599ec1498754af55a6819
   SSToastMessage: 36f6bb3175e78b3424a03946a6c3d2588b322e0a
 
-PODFILE CHECKSUM: 8d12220e45a4d246d1b68fed7b0cdbde44a38d8a
+PODFILE CHECKSUM: af60fbd33d7fea9553a3cde968b3c5afe6227bf5
 
 COCOAPODS: 1.10.2

@@ -14,6 +14,7 @@ target 'FoodRecipe' do
   project 'FoodRecipe.project'
   
   # pods used only in FoodRecipe
+  pod 'lottie-ios'
   pod 'SSToastMessage'
   pod 'SDWebImageSwiftUI'
 
