@@ -21,6 +21,34 @@
 		1D8A0B7B27DE8EAA008549F8 /* FoodRecipeDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A0B7A27DE8EAA008549F8 /* FoodRecipeDetailedView.swift */; };
 		1D8A0B7E27DE8FB1008549F8 /* WebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A0B7D27DE8FB1008549F8 /* WebImageView.swift */; };
 		1D8A0B8127DE92BB008549F8 /* View+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A0B8027DE92BB008549F8 /* View+App.swift */; };
+		1DA494A627E101650070B04C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494A527E101650070B04C /* LoginView.swift */; };
+		1DA494AD27E1020A0070B04C /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494A727E102090070B04C /* FloatingTextField.swift */; };
+		1DA494AE27E1020A0070B04C /* ToastMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494A827E102090070B04C /* ToastMsg.swift */; };
+		1DA494AF27E1020A0070B04C /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494A927E102090070B04C /* AppLink.swift */; };
+		1DA494B027E1020A0070B04C /* AppBtnLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494AA27E102090070B04C /* AppBtnLabel.swift */; };
+		1DA494B127E1020A0070B04C /* LoadingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494AB27E1020A0070B04C /* LoadingCircle.swift */; };
+		1DA494B227E1020A0070B04C /* AuthHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494AC27E1020A0070B04C /* AuthHeader.swift */; };
+		1DA494B627E1035D0070B04C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494B527E1035D0070B04C /* Colors.xcassets */; };
+		1DA494B927E1038B0070B04C /* Font+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494B727E1038B0070B04C /* Font+App.swift */; };
+		1DA494BA27E1038B0070B04C /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA494B827E1038B0070B04C /* Color+App.swift */; };
+		1DA494D027E105F00070B04C /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494BE27E105F00070B04C /* Poppins-ExtraLight.ttf */; };
+		1DA494D127E105F00070B04C /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494BF27E105F00070B04C /* Poppins-ThinItalic.ttf */; };
+		1DA494D227E105F00070B04C /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494C027E105F00070B04C /* Poppins-ExtraLightItalic.ttf */; };
+		1DA494D327E105F00070B04C /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494C127E105F00070B04C /* Poppins-BoldItalic.ttf */; };
+		1DA494D427E105F00070B04C /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494C227E105F00070B04C /* Poppins-Light.ttf */; };
+		1DA494D527E105F00070B04C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494C327E105F00070B04C /* Poppins-Medium.ttf */; };
+		1DA494D627E105F00070B04C /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494C427E105F00070B04C /* Poppins-SemiBoldItalic.ttf */; };
+		1DA494D727E105F00070B04C /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494C527E105F00070B04C /* Poppins-ExtraBoldItalic.ttf */; };
+		1DA494D827E105F00070B04C /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494C627E105F00070B04C /* Poppins-ExtraBold.ttf */; };
+		1DA494D927E105F00070B04C /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494C727E105F00070B04C /* Poppins-BlackItalic.ttf */; };
+		1DA494DA27E105F00070B04C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494C827E105F00070B04C /* Poppins-Regular.ttf */; };
+		1DA494DB27E105F00070B04C /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494C927E105F00070B04C /* Poppins-LightItalic.ttf */; };
+		1DA494DC27E105F00070B04C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494CA27E105F00070B04C /* Poppins-Bold.ttf */; };
+		1DA494DD27E105F00070B04C /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494CB27E105F00070B04C /* Poppins-Black.ttf */; };
+		1DA494DE27E105F00070B04C /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494CC27E105F00070B04C /* Poppins-Thin.ttf */; };
+		1DA494DF27E105F00070B04C /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494CD27E105F00070B04C /* Poppins-SemiBold.ttf */; };
+		1DA494E027E105F00070B04C /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494CE27E105F00070B04C /* Poppins-Italic.ttf */; };
+		1DA494E127E105F00070B04C /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DA494CF27E105F00070B04C /* Poppins-MediumItalic.ttf */; };
 		AD157E3F332DB3F1D009CD7C /* Pods_FoodRecipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC92BEDE875CA5F81CABBA5 /* Pods_FoodRecipe.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +92,35 @@
 		1D8A0B7A27DE8EAA008549F8 /* FoodRecipeDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecipeDetailedView.swift; sourceTree = "<group>"; };
 		1D8A0B7D27DE8FB1008549F8 /* WebImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageView.swift; sourceTree = "<group>"; };
 		1D8A0B8027DE92BB008549F8 /* View+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+App.swift"; sourceTree = "<group>"; };
+		1DA494A527E101650070B04C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../../../../leedoios/Leedo/Sences/Auth/Login/View/LoginView.swift; sourceTree = "<group>"; };
+		1DA494A727E102090070B04C /* FloatingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatingTextField.swift; path = "../../../leedoios/Leedo/View Compnents/FloatingTextField.swift"; sourceTree = "<group>"; };
+		1DA494A827E102090070B04C /* ToastMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToastMsg.swift; path = "../../../leedoios/Leedo/View Compnents/ToastMsg.swift"; sourceTree = "<group>"; };
+		1DA494A927E102090070B04C /* AppLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppLink.swift; path = "../../../leedoios/Leedo/View Compnents/AppLink.swift"; sourceTree = "<group>"; };
+		1DA494AA27E102090070B04C /* AppBtnLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppBtnLabel.swift; path = "../../../leedoios/Leedo/View Compnents/AppBtnLabel.swift"; sourceTree = "<group>"; };
+		1DA494AB27E1020A0070B04C /* LoadingCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingCircle.swift; path = "../../../leedoios/Leedo/View Compnents/LoadingCircle.swift"; sourceTree = "<group>"; };
+		1DA494AC27E1020A0070B04C /* AuthHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthHeader.swift; path = "../../../leedoios/Leedo/View Compnents/AuthHeader.swift"; sourceTree = "<group>"; };
+		1DA494B527E1035D0070B04C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		1DA494B727E1038B0070B04C /* Font+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+App.swift"; sourceTree = "<group>"; };
+		1DA494B827E1038B0070B04C /* Color+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
+		1DA494BB27E105580070B04C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1DA494BE27E105F00070B04C /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		1DA494BF27E105F00070B04C /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		1DA494C027E105F00070B04C /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		1DA494C127E105F00070B04C /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1DA494C227E105F00070B04C /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		1DA494C327E105F00070B04C /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		1DA494C427E105F00070B04C /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		1DA494C527E105F00070B04C /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		1DA494C627E105F00070B04C /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		1DA494C727E105F00070B04C /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		1DA494C827E105F00070B04C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		1DA494C927E105F00070B04C /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		1DA494CA27E105F00070B04C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		1DA494CB27E105F00070B04C /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		1DA494CC27E105F00070B04C /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		1DA494CD27E105F00070B04C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		1DA494CE27E105F00070B04C /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		1DA494CF27E105F00070B04C /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		1ECDF0C64EF8CB364461C86B /* Pods-FoodRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipe.release.xcconfig"; path = "Target Support Files/Pods-FoodRecipe/Pods-FoodRecipe.release.xcconfig"; sourceTree = "<group>"; };
 		4A1507F502AD4E9F96154669 /* Pods-FoodRecipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecipe.debug.xcconfig"; path = "Target Support Files/Pods-FoodRecipe/Pods-FoodRecipe.debug.xcconfig"; sourceTree = "<group>"; };
 		9AC92BEDE875CA5F81CABBA5 /* Pods_FoodRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRecipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +160,7 @@
 		1D15652827DA6AFD00CDAC80 /* FoodRecipe */ = {
 			isa = PBXGroup;
 			children = (
+				1DA494BB27E105580070B04C /* Info.plist */,
 				1D8A0B7F27DE9253008549F8 /* Extensions */,
 				1D78574727DB71DA000EE2E7 /* View Compnents */,
 				1D15653927DA6FB100CDAC80 /* Resources */,
@@ -124,6 +182,7 @@
 		1D15653727DA6F5100CDAC80 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				1DA494A227E101330070B04C /* Login */,
 				1D78574027DAEB4A000EE2E7 /* Home */,
 			);
 			path = Scenes;
@@ -140,8 +199,8 @@
 		1D15653927DA6FB100CDAC80 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1D15652D27DA6AFF00CDAC80 /* Assets.xcassets */,
-				1D78574527DAEEAB000EE2E7 /* Images.xcassets */,
+				1DA494E227E105F50070B04C /* Assets */,
+				1DA494BD27E105F00070B04C /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -184,6 +243,12 @@
 		1D78574727DB71DA000EE2E7 /* View Compnents */ = {
 			isa = PBXGroup;
 			children = (
+				1DA494AA27E102090070B04C /* AppBtnLabel.swift */,
+				1DA494A927E102090070B04C /* AppLink.swift */,
+				1DA494AC27E1020A0070B04C /* AuthHeader.swift */,
+				1DA494A727E102090070B04C /* FloatingTextField.swift */,
+				1DA494AB27E1020A0070B04C /* LoadingCircle.swift */,
+				1DA494A827E102090070B04C /* ToastMsg.swift */,
 				1D78574927DB7213000EE2E7 /* BackgroundFloatingView.swift */,
 				1D78574827DB7213000EE2E7 /* BasicBorderView.swift */,
 				1D78575227DCF8E1000EE2E7 /* RecipeItemCard.swift */,
@@ -203,9 +268,62 @@
 		1D8A0B7F27DE9253008549F8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				1DA494B827E1038B0070B04C /* Color+App.swift */,
+				1DA494B727E1038B0070B04C /* Font+App.swift */,
 				1D8A0B8027DE92BB008549F8 /* View+App.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1DA494A227E101330070B04C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1DA494A427E1013D0070B04C /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1DA494A427E1013D0070B04C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DA494A527E101650070B04C /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1DA494BD27E105F00070B04C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1DA494BE27E105F00070B04C /* Poppins-ExtraLight.ttf */,
+				1DA494BF27E105F00070B04C /* Poppins-ThinItalic.ttf */,
+				1DA494C027E105F00070B04C /* Poppins-ExtraLightItalic.ttf */,
+				1DA494C127E105F00070B04C /* Poppins-BoldItalic.ttf */,
+				1DA494C227E105F00070B04C /* Poppins-Light.ttf */,
+				1DA494C327E105F00070B04C /* Poppins-Medium.ttf */,
+				1DA494C427E105F00070B04C /* Poppins-SemiBoldItalic.ttf */,
+				1DA494C527E105F00070B04C /* Poppins-ExtraBoldItalic.ttf */,
+				1DA494C627E105F00070B04C /* Poppins-ExtraBold.ttf */,
+				1DA494C727E105F00070B04C /* Poppins-BlackItalic.ttf */,
+				1DA494C827E105F00070B04C /* Poppins-Regular.ttf */,
+				1DA494C927E105F00070B04C /* Poppins-LightItalic.ttf */,
+				1DA494CA27E105F00070B04C /* Poppins-Bold.ttf */,
+				1DA494CB27E105F00070B04C /* Poppins-Black.ttf */,
+				1DA494CC27E105F00070B04C /* Poppins-Thin.ttf */,
+				1DA494CD27E105F00070B04C /* Poppins-SemiBold.ttf */,
+				1DA494CE27E105F00070B04C /* Poppins-Italic.ttf */,
+				1DA494CF27E105F00070B04C /* Poppins-MediumItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1DA494E227E105F50070B04C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1DA494B527E1035D0070B04C /* Colors.xcassets */,
+				1D15652D27DA6AFF00CDAC80 /* Assets.xcassets */,
+				1D78574527DAEEAB000EE2E7 /* Images.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		3300DAD7E7CB805ED09FE7FA /* Pods */ = {
@@ -302,9 +420,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA494DE27E105F00070B04C /* Poppins-Thin.ttf in Resources */,
+				1DA494E127E105F00070B04C /* Poppins-MediumItalic.ttf in Resources */,
+				1DA494D727E105F00070B04C /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				1DA494D627E105F00070B04C /* Poppins-SemiBoldItalic.ttf in Resources */,
+				1DA494D027E105F00070B04C /* Poppins-ExtraLight.ttf in Resources */,
+				1DA494D427E105F00070B04C /* Poppins-Light.ttf in Resources */,
+				1DA494DF27E105F00070B04C /* Poppins-SemiBold.ttf in Resources */,
+				1DA494D227E105F00070B04C /* Poppins-ExtraLightItalic.ttf in Resources */,
 				1D78574627DAEEAB000EE2E7 /* Images.xcassets in Resources */,
+				1DA494DD27E105F00070B04C /* Poppins-Black.ttf in Resources */,
+				1DA494E027E105F00070B04C /* Poppins-Italic.ttf in Resources */,
+				1DA494B627E1035D0070B04C /* Colors.xcassets in Resources */,
+				1DA494DB27E105F00070B04C /* Poppins-LightItalic.ttf in Resources */,
+				1DA494D127E105F00070B04C /* Poppins-ThinItalic.ttf in Resources */,
+				1DA494D927E105F00070B04C /* Poppins-BlackItalic.ttf in Resources */,
+				1DA494DA27E105F00070B04C /* Poppins-Regular.ttf in Resources */,
 				1D15653127DA6AFF00CDAC80 /* Preview Assets.xcassets in Resources */,
+				1DA494DC27E105F00070B04C /* Poppins-Bold.ttf in Resources */,
 				1D15652E27DA6AFF00CDAC80 /* Assets.xcassets in Resources */,
+				1DA494D327E105F00070B04C /* Poppins-BoldItalic.ttf in Resources */,
+				1DA494D527E105F00070B04C /* Poppins-Medium.ttf in Resources */,
+				1DA494D827E105F00070B04C /* Poppins-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,12 +497,21 @@
 				1D78575327DCF8E2000EE2E7 /* RecipeItemCard.swift in Sources */,
 				1D78575527DCF96F000EE2E7 /* FoodRecipesView.swift in Sources */,
 				1D15652A27DA6AFD00CDAC80 /* FoodRecipeApp.swift in Sources */,
+				1DA494AF27E1020A0070B04C /* AppLink.swift in Sources */,
 				1D78575127DCF67C000EE2E7 /* FoodRecipesViewModel.swift in Sources */,
 				1D78574A27DB7213000EE2E7 /* BasicBorderView.swift in Sources */,
+				1DA494B927E1038B0070B04C /* Font+App.swift in Sources */,
 				1D78574B27DB7213000EE2E7 /* BackgroundFloatingView.swift in Sources */,
+				1DA494B227E1020A0070B04C /* AuthHeader.swift in Sources */,
 				1D8A0B8127DE92BB008549F8 /* View+App.swift in Sources */,
+				1DA494B027E1020A0070B04C /* AppBtnLabel.swift in Sources */,
+				1DA494BA27E1038B0070B04C /* Color+App.swift in Sources */,
+				1DA494AD27E1020A0070B04C /* FloatingTextField.swift in Sources */,
 				1D8A0B7B27DE8EAA008549F8 /* FoodRecipeDetailedView.swift in Sources */,
+				1DA494A627E101650070B04C /* LoginView.swift in Sources */,
 				1D8A0B7E27DE8FB1008549F8 /* WebImageView.swift in Sources */,
+				1DA494AE27E1020A0070B04C /* ToastMsg.swift in Sources */,
+				1DA494B127E1020A0070B04C /* LoadingCircle.swift in Sources */,
 				1D78574427DAEB89000EE2E7 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +647,7 @@
 				DEVELOPMENT_TEAM = 7Q8B3GBMTP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodRecipe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -531,6 +678,7 @@
 				DEVELOPMENT_TEAM = 7Q8B3GBMTP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodRecipe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
