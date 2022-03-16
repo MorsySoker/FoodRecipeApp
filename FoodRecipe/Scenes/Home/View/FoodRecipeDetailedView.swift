@@ -85,9 +85,9 @@ struct FoodRecipeDetailedView: View {
             }
             .padding()
             .hCenter()
-            .background(BackgroundFloatingView())
             .font(.subheadline)
             .foregroundColor(.primary)
+            .background(LinearGradient(gradient: Gradient(colors: [.goldenYellow, .bloodyRed]), startPoint: .topLeading , endPoint: .bottomTrailing).cornerRadius(20))
             
             if isIngredientsExpanded {
                 ForEach(foodRecipe.ingredients, id: \.self) {
@@ -97,7 +97,6 @@ struct FoodRecipeDetailedView: View {
             }
         }
         .padding(.horizontal)
-        .background(BasicBorderView())
         .animation(Animation.easeInOut, value: isIngredientsExpanded)
     }
     

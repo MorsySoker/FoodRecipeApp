@@ -15,8 +15,6 @@ struct LoginView: View {
     @EnvironmentObject var appState: AppState
 
     @EnvironmentObject var loginVM: LoginViewModel
-
-    //@StateObject var loginVM = LoginViewModel()
     
     @State var email: String = ""
     
