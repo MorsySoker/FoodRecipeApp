@@ -23,8 +23,10 @@ struct RecipeItemCard: View {
                 WebImageView(imageURL: imageUrl)
                     .shadow(color: Color.gray,
                             radius: 6, x: 0, y: 3)
+                    .background(BasicBorderView())
             }
 
+            VStack {
             Text(recipeName)
                 .font(.title)
                 .fontWeight(.black)
@@ -34,11 +36,13 @@ struct RecipeItemCard: View {
             
             Text(recipeHeadline)
                 .font(.caption)
-                    .foregroundColor(.secondary)
+                .foregroundColor(.secondary)
+            }
+            .background(Color.clear)
         }
         .padding(.bottom)
         .cornerRadius(10)
-        .background(BackgroundFloatingView().offset(y: 5))
-        .background(BasicBorderView())
+//        .background(BackgroundFloatingView().offset(y: 5))
+//        .background(BasicBorderView())
     }
 }
