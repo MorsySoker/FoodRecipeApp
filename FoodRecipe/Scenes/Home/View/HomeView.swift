@@ -20,14 +20,31 @@ struct HomeView: View {
         ZStack {
             AppBackground()
             
-            FoodRecipesView(foodRecipes: foodRecipesVM.recipes, selectedRecipe: $foodRecipesVM.selectedRecipe) {
-                isDetailedViewPresented.toggle()
-            }
-            .sheet(isPresented: $isDetailedViewPresented) {
-                if let foodRecipe = foodRecipesVM.selectedRecipe {
-                    FoodRecipeDetailedView(foodRecipe: foodRecipe)
+            recipeList
+                .sheet(isPresented: $isDetailedViewPresented) {
+                    if let foodRecipe = foodRecipesVM.selectedRecipe {
+                        FoodRecipeDetailedView(foodRecipe: foodRecipe)
+                    }
+                }
+        }
+    }
+}
+
+private extension HomeView {
+    var recipeList: some View {
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack(spacing: 20) {
+                ForEach(foodRecipesVM.recipes) { recipe in
+                    Button(action: {
+                        foodRecipesVM.selectedRecipe = recipe
+                        isDetailedViewPresented.toggle() }) {
+                            RecipeItemCard(recipeimage: recipe.image,
+                                           recipeName: recipe.name,
+                                           recipeHeadline: recipe.headline)
+                        }
                 }
             }
+            .padding()
         }
     }
 }

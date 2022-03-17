@@ -6,13 +6,10 @@
 //
 
 import Combine
-import Foundation
 import FoodRecipeServices
 
-class LoginViewModel: ObservableObject {
-
+final class LoginViewModel: ObservableObject {
     // MARK: - Input Properties
-
     @Published var username = ""
     @Published var password = ""
 
@@ -36,7 +33,7 @@ class LoginViewModel: ObservableObject {
 
     // MARK: - Methods
 
-    func bind() {
+    private func bind() {
         $errorMessage
             .receive(on: RunLoop.main)
             .map { !$0.isEmpty }

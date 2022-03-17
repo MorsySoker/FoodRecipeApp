@@ -9,19 +9,22 @@ import Foundation
 import Combine
 import FoodRecipeServices
 
-class FoodRecipesViewModel: ObservableObject {
+final class FoodRecipesViewModel: ObservableObject {
+    
+    // MARK: - Input Properties
+    
+    @Published var selectedRecipe: RecipesModel?
     
     // MARK: - Output Properties
     
     @Published var recipes: [RecipesModel] = []
-    @Published var selectedRecipe: RecipesModel?
     @Published var errorMessage = ""
     @Published var error = false
     
     // MARK: - Properties
     
     private var cancellable: Set<AnyCancellable> = []
-    private var service: RecipesServiceProtocol
+    let service: RecipesServiceProtocol
     
     // MARK: - init
     
@@ -31,9 +34,9 @@ class FoodRecipesViewModel: ObservableObject {
         getRecipes()
     }
     
-    // MARK: - Methods
-    
-    func bind() {
+    // MARK: - Private Methods
+
+    private func bind() {
         $errorMessage
             .receive(on: RunLoop.main)
             .map { !$0.isEmpty }
@@ -41,15 +44,13 @@ class FoodRecipesViewModel: ObservableObject {
             .store(in: &cancellable)
     }
     
-    func getRecipes() {
+     func getRecipes() {
         service.getRecipes()
             .receive(on: RunLoop.main)
             .sink(receiveCompletion: onReceive, receiveValue: onReceive)
             .store(in: &cancellable)
     }
     
-    // MARK: - Private Methods
-
     private func onReceive(_ completion: Subscribers.Completion<NetworkError>) {
         if case let .failure(error) = completion {
             errorMessage = error.localizedDescription
