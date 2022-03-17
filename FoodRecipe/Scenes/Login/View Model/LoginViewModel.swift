@@ -9,7 +9,9 @@ import Combine
 import FoodRecipeServices
 
 final class LoginViewModel: ObservableObject {
+    
     // MARK: - Input Properties
+    
     @Published var username = ""
     @Published var password = ""
 

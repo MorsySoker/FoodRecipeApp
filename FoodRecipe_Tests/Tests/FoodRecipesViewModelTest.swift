@@ -1,5 +1,5 @@
 //
-//  FoodRecipesViewModel_Test.swift
+//  FoodRecipesViewModelTest.swift
 //  FoodRecipe_Tests
 //
 //  Created by MorsyElsokary on 16/03/2022.
@@ -10,11 +10,14 @@ import Combine
 import FoodRecipeServices
 @testable import FoodRecipe
 
-class FoodRecipesViewModel_Test: XCTestCase {
+class FoodRecipesViewModelTest: XCTestCase {
+    
+    // MARK: - Properties
     
     var sut: FoodRecipesViewModel!
     var cancellable: Set<AnyCancellable> = []
 
+    // MARK: - Setup / Tear down
     override func setUp() {
         sut = FoodRecipesViewModel()
         super.setUp()
@@ -24,6 +27,8 @@ class FoodRecipesViewModel_Test: XCTestCase {
         sut = nil
         super.tearDown()
     }
+    
+    // MARK: - Tests
     
     func test_FoodRecipesViewModel_recipes_shouldBeEmptyWhenVMInit() {
         // Then

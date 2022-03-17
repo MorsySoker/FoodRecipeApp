@@ -1,5 +1,5 @@
 //
-//  LoginViewModel_Tests.swift
+//  LoginViewModelTests.swift
 //  FoodRecipe_Tests
 //
 //  Created by MorsyElsokary on 16/03/2022.
@@ -8,9 +8,14 @@
 import XCTest
 @testable import FoodRecipe
 
-class LoginViewModel_Tests: XCTestCase {
+class LoginViewModelTests: XCTestCase {
+    
+    // MARK: - Properties
+    
     var sut: LoginViewModel!
-
+    
+    // MARK: - Setup / Tear down
+    
     override func setUp() {
         sut = LoginViewModel()
         super.setUp()
@@ -20,6 +25,8 @@ class LoginViewModel_Tests: XCTestCase {
         sut = nil
         super.tearDown()
     }
+    
+    // MARK: - Tests
     
     func test_LoginViewModel_userName_shouldBeEmptyWhenVMInit() {
         // Then
